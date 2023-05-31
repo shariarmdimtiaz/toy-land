@@ -1,6 +1,6 @@
 # [TOYLAND](https://toyland-4ce4c.web.app/)
 
-Toyland is an enchanting online destination for all things play and imagination. Our website is a treasure trove of toys, where children and parents alike can explore a vibrant world of fun and discovery. With a wide range of high-quality toys from trusted brands, Toyland offers an immersive shopping experience that sparks joy and ignites the imagination. From educational toys to interactive games, we strive to provide a carefully curated selection that promotes learning, creativity, and endless hours of entertainment. Join us in the magical realm of Toyland, where every toy has a story to tell and every child's smile is our greatest reward.
+Toyland is an interactive project that showcases a wide range of educational toys. Users can contribute by adding toys, search for specific items, explore the entire collection, delete items and enjoy a personalized experience with secure login and registration. With a focus on inspiring learning and fostering creativity, Toyland offers a platform where educators, parents, and learners can find and share educational toys that promote curiosity, critical thinking, and skill development. From science kits to puzzles and interactive games, Toyland is a go-to resource for those seeking educational toys to enhance the learning journey of children and learners of all ages.
 
 ## Resource
 
