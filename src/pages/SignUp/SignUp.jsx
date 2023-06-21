@@ -63,7 +63,7 @@ const SignUp = () => {
         })
         .catch((error) => {
           toast.error("Sorry, try again.");
-          //console.log(error)
+          console.log(error);
           //console.log(">>>> ", error.message);
         });
       // setMessage("Successfully created your account!");
