@@ -2,8 +2,26 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import ReadMoreReact from "read-more-react";
 
 const NewsBrands = () => {
+  const text1 = `Stay updated with the latest toy trends that will spark
+              imagination and delight children of all ages. From interactive
+              robots to creative building sets, explore the toys that are
+              capturing hearts and minds.`;
+  const text2 = `Get a sneak peek at the hottest toys that will be on every child's
+              wish list this holiday season. From classic favorites to
+              innovative new releases, find the perfect gifts to make their
+              dreams come true.`;
+  const text3 = `Explore the remarkable impact of play on child development. Learn
+              how toys contribute to cognitive, social, and emotional growth,
+              and discover the types of toys that promote different areas of
+              development.`;
+  const text4 = `Stay updated with the latest toy trends that will spark
+              imagination and delight children of all ages. From interactive
+              robots to creative building sets, explore the toys that are
+              capturing hearts and minds.`;
+
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -13,17 +31,18 @@ const NewsBrands = () => {
 
   return (
     <div data-aos="fade-up" className="container mx-auto py-[120px]">
-      <h1 className="text-center font-bold text-5xl py-5">News</h1>
+      <h1 className="text-center font-bold text-5xl py-5">Toy News</h1>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
         <div className="card w-90 bg-base-100 shadow-xl mx-auto">
           <div className="card-body">
             <h2 className="card-title">New Toy Trends for Endless Fun</h2>
-            <p>
-              Stay updated with the latest toy trends that will spark
-              imagination and delight children of all ages. From interactive
-              robots to creative building sets, explore the toys that are
-              capturing hearts and minds.
-            </p>
+            <ReadMoreReact
+              text={text1}
+              min={80}
+              ideal={100}
+              max={150}
+              readMoreText="...read more"
+            />
           </div>
         </div>
         <div className="card w-90 bg-base-100 shadow-xl mx-auto">
@@ -31,12 +50,13 @@ const NewsBrands = () => {
             <h2 className="card-title">
               Must-Have Toys for the Holiday Season
             </h2>
-            <p>
-              Get a sneak peek at the hottest toys that will be on every child's
-              wish list this holiday season. From classic favorites to
-              innovative new releases, find the perfect gifts to make their
-              dreams come true.
-            </p>
+            <ReadMoreReact
+              text={text2}
+              min={80}
+              ideal={100}
+              max={150}
+              readMoreText="...read more"
+            />
           </div>
         </div>
         <div className="card w-90 bg-base-100 shadow-xl mx-auto">
@@ -44,23 +64,25 @@ const NewsBrands = () => {
             <h2 className="card-title">
               The Power of Play: Benefits of Toys for Child Development
             </h2>
-            <p>
-              Explore the remarkable impact of play on child development. Learn
-              how toys contribute to cognitive, social, and emotional growth,
-              and discover the types of toys that promote different areas of
-              development.
-            </p>
+            <ReadMoreReact
+              text={text3}
+              min={80}
+              ideal={100}
+              max={150}
+              readMoreText="...read more"
+            />
           </div>
         </div>
         <div className="card w-90 bg-base-100 shadow-xl mx-auto">
           <div className="card-body">
             <h2 className="card-title">New Toy Trends for Endless Fun</h2>
-            <p>
-              Stay updated with the latest toy trends that will spark
-              imagination and delight children of all ages. From interactive
-              robots to creative building sets, explore the toys that are
-              capturing hearts and minds.
-            </p>
+            <ReadMoreReact
+              text={text4}
+              min={80}
+              ideal={100}
+              max={150}
+              readMoreText="...read more"
+            />
           </div>
         </div>
       </div>
